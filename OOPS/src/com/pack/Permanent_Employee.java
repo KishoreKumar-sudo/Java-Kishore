@@ -1,7 +1,7 @@
 package com.pack;
 
 public class Permanent_Employee extends Employee {
-	double min_Tax;
+	private double min_Tax;
 
 	public double getMin_Tax() {
 		return min_Tax;
