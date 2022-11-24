@@ -1,8 +1,7 @@
+//ClassCastException1
 
-//NullPointerException
 class Main{
-    public static void main(String[] args){
-        String ename = null;
-        System.out.println(ename.length());
+    public static void main(String[] args) {
+        System.out.println("Buddyyyyyyy");
     }
 }
