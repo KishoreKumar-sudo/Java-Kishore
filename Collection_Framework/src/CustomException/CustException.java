@@ -5,6 +5,7 @@ public class CustException {
     class InsuffientFundsExcetion extends Exception {
         InsuffientFundsExcetion(String message) {
             super(message);
+            
         }
     }
 
