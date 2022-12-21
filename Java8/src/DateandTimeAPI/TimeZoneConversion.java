@@ -12,16 +12,16 @@ public class TimeZoneConversion {
 		Date today = new Date();
 		
 		//Displaying this date on ISTtimezone
-		DateFormat df = new SimpleDateFormat("dd-mm-yy HH:MM:SS z");
+		DateFormat df = new SimpleDateFormat("dd-MM-yy HH:mm:SS z");
 		
 		df.setTimeZone(TimeZone.getTimeZone("Asia/Kolkata"));
 		String IST = df.format(today);
 		System.out.println("Date in Indian TimeZone (IST) : " + IST);
 		
 		//Displaying date on Pacific TimeZone
-		df.setTimeZone(TimeZone.getTimeZone("America/Los_Angeles"));
-		String PST = df.format(today);
-		System.out.println("Date in PST TimeZone : " + PST);
+		df.setTimeZone(TimeZone.getTimeZone("England/London"));
+		String GMT = df.format(today);
+		System.out.println("Date in GMT TimeZone : " + GMT);
 	}
 	
 	
