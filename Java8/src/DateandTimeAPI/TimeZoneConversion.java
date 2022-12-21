@@ -18,7 +18,7 @@ public class TimeZoneConversion {
 		String IST = df.format(today);
 		System.out.println("Date in Indian TimeZone (IST) : " + IST);
 		
-		//Displaying date on Pacific TimeZone
+		//Displaying date on GMT TimeZone
 		df.setTimeZone(TimeZone.getTimeZone("England/London"));
 		String GMT = df.format(today);
 		System.out.println("Date in GMT TimeZone : " + GMT);
