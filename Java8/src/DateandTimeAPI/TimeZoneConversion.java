@@ -24,6 +24,4 @@ public class TimeZoneConversion {
 		System.out.println("Date in GMT TimeZone : " + GMT);
 	}
 	
-	
-	
 }
