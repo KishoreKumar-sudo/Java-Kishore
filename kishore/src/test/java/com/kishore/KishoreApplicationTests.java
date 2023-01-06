@@ -1,10 +1,10 @@
-package com.example.nemo;
+package com.kishore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NemoApplicationTests {
+class KishoreApplicationTests {
 
 	@Test
 	void contextLoads() {

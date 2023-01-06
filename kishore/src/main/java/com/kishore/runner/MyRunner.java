@@ -1,20 +1,17 @@
-package com.nemo.runner;
+package com.kishore.runner;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import com.nemo.bean.HelloBean;
+import com.kishore.beans.KishoreBeans;
 
 @Component
 public class MyRunner implements CommandLineRunner {
-	
 @Autowired
-HelloBean helloBean;
+KishoreBeans kishoreBeans;
 	@Override
 	public void run(String... args) throws Exception {
-		helloBean.SayHello();
-
+	kishoreBeans.SayHello();
 	}
-
 }
