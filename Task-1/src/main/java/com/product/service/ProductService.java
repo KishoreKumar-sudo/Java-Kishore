@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.product.model.Product;
+import com.product.model.TaskProduct;
 import com.product.repository.ProductRepository;
 
 @Service
@@ -16,24 +16,23 @@ public class ProductService {
 	//CRUD Operations
 	
 	//Create Product
-	public void saveProduct(Product product) {
+	public void saveProduct(TaskProduct product) {
 		productRepository.save(product);
 	}
 	
 	//Get All Products
-	public List<Product> getProducts(){
+	public List<TaskProduct> getProducts(){
 		return productRepository.findAll();
 		//return productRepository.findById(null);
 	}
 	
 	//update Product
-	public void updateProduct (Product product) {
+	public void updateProduct (TaskProduct product) {
 		productRepository.save(product);
 	}
 	
 	//delete product
 	public void deleteProduct(Integer id){
 		productRepository.deleteById(id);
-	}
-	
+	}	
 }
