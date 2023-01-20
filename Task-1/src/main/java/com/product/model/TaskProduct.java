@@ -1,5 +1,6 @@
 package com.product.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -9,7 +10,8 @@ import jakarta.persistence.Id;
 public class TaskProduct {
 	private Integer id;
 	private String name;
-	private double price;
+//	@Column(nullable = false)
+	private long price;
 	private Integer qty;
 	private String info;
 	
@@ -27,10 +29,10 @@ public class TaskProduct {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public double getPrice() {
+	public long getPrice() {
 		return price;
 	}
-	public void setPrice(double price) {
+	public void setPrice(long price) {
 		this.price = price;
 	}
 	public Integer getQty() {
