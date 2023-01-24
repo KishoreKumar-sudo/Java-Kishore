@@ -5,7 +5,7 @@ class without_dry {
     // For Mech department
     public void MECH() {
         System.out.println("This is Fire_Mech");
-    }
+    }   
 
     // Method 2
     // For Mech department college

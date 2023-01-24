@@ -14,40 +14,47 @@ public class TaskProduct {
 	private long price;
 	private Integer qty;
 	private String info;
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public Integer getId() {
 		return id;
 	}
+
 	public void setId(Integer id) {
 		this.id = id;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public long getPrice() {
 		return price;
 	}
+
 	public void setPrice(long price) {
 		this.price = price;
 	}
+
 	public Integer getQty() {
 		return qty;
 	}
+
 	public void setQty(Integer qty) {
 		this.qty = qty;
 	}
+
 	public String getInfo() {
 		return info;
 	}
+
 	public void setInfo(String info) {
 		this.info = info;
 	}
-	
 
-	
 }
