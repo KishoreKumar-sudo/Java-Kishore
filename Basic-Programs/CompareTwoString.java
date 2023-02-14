@@ -12,10 +12,8 @@ class CompareTwoString {
         s2 = in.nextLine();
         if (s1.compareTo(s2) > 0)
             System.out.println("First String is greater than Second.");
-        // else if (s1.compareTo(s2) < 0)
-        //     System.out.println("First String is smaller than Second.");
         else if (s1.compareTo(s2) < 0)
-            System.out.println("Second String is smaller than First.");
+            System.out.println("First String is smaller than Second.");
         else
             System.out.println("Both Strings are equal");
     }
