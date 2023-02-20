@@ -7,10 +7,13 @@ public class FloydTriangle {
         System.out.println("Enter the number of rows of floyd's triangle you want");
         n = in.nextInt();
         System.out.println("Floyd's Triangle :-");
-        for( c = 1 ; c <= n ; c++ ){
-            for( d = 1 ; d <= c ; d++ ){
-                
+        for (c = 1; c <= n; c++)
+         {
+            for (d = 1; d <= c; d++)
+             {
+                System.out.println(num + " ");
             }
-        } 
+            System.out.println();
+        }
     }
 }
