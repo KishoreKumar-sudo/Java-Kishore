@@ -28,22 +28,7 @@ public class Quiz {
     }
 }
 
-// Method Duplication 2(Nt a gud practice)
-public class Test {
-    public int meth() {
-        return 20;
-    }
 
-    public String meth() {
-        return "Spiders";
-    }
-
-    public static void main(String[] args) {
-        Test t = new Test();
-        // Ambiguity/Conflict
-        t.meth();
-    }
-}
 
 // Method Duplication(Best practice)
 public class Test {
@@ -58,22 +43,5 @@ public class Test {
     public static void main(String[] args) {
         Test t = new Test();
         t.meth();
-    }
-}
-
-// Method Duplication 3(Nt a gud practice)
-public class Quiz {
-    void meth(String s) {
-
-    }
-
-    void meth(Product p) {
-
-    }
-
-    public static void main(String[] args){
-          Quiz q = new Quiz();
-          //Error occurs both mtd takes null as default value 
-          q.meth(null);
     }
 }
