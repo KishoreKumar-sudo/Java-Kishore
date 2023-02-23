@@ -20,3 +20,9 @@ public class Website {
         // body //Logic
     }
 }
+
+/* Advantage of method overloading
+• Method overloading increases the readability of the program.
+• To achieve compile time Polymorphism.
+
+Method Overloading is possible in same class & even possible in case of Inheritance */

@@ -1,0 +1,26 @@
+Method overriding is the the process of providing the subclass specific method implementation for an inherited 
+method.
+
+When a method from super class is inherited to subclass , in subclass we can change the method 
+logic by keeping the same method declaration.
+
+If a subclass provides the specific implementation of the method that has been declared by one of 
+its parent class, it is known as method overriding.
+
+It is possible only in case of Inheritance.
+
+Usage of Java Method Overriding
+
+Method overriding is used to provide the specific implementation of a method which is 
+already provided by its superclass.
+
+Method overriding is used for runtime polymorphism
+
+Rules for Method overriding:
+The return type of method must be same as declared in super class.
+
+Method name must be same as declared in super class.
+
+Signature must be same as declared as in super class. Logic can be different.
+
+Note: we can optionally use an annotation @Override.
