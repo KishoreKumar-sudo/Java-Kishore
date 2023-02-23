@@ -1,5 +1,5 @@
 // Method Duplication(Best practice)
-public class Example1 {
+public class Test {
     public int meth() {
         return 20;
     }
