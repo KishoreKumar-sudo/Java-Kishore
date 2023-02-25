@@ -9,7 +9,7 @@ public class FloydTriangle {
         System.out.println("Floyd's Triangle :-");
         for (c = 1; c <= n; c=c+1)
          {
-            for (d = 1; d <= c; d++)
+            for (d = 1; d <= c; d=d+1)
              {
                 System.out.println(num + " ");
             }
