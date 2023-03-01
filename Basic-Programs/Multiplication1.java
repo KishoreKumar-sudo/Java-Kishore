@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class Multiplication1 {
     public static void main(String args[]) {
         int a, b, c, d;
