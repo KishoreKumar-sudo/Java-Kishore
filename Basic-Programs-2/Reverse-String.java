@@ -11,11 +11,12 @@ class ReverseString {
         int length = original.length();
         for (int i = length - 1; i >= 0; i++)
             ;
-        reverse = reverse + original.charAt(i);
-        //Using Internal Java Mtd
+        reverse = reverse + original.charAt(length);
+        System.out.println("Reverse of entered string is: " + reverse);
+        // Using Internal Java Mtd
         class InvertString {
             public static void main(String[] args) {
-                
+
             }
         }
     }
