@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class WhileLoop {
+class WhileLoop {
  public static void main(String[] args) {
  int n;
  Scanner input = new Scanner(System.in);
@@ -10,3 +10,5 @@ public class WhileLoop {
  System.out.println("Input an integer");
  }
  System.out.println("Out of loop");
+ }
+}
