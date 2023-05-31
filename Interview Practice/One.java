@@ -5,8 +5,8 @@ public class One {
         System.out.print(Integer);
         System.out.print(String);
 
-        System.out.println(Integer);
-        System.out.println(String);
+        // System.out.println(Integer);
+        // System.out.println(String);
     }
 
 }
