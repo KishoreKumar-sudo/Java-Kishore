@@ -1,0 +1,6 @@
+write a syntax to declare character array?
+char[] ch = new char[5] (Valid Statement)
+
+when an array is passed to a mtd "reference of array" is received by array.
+
+Arrays are objects in java, it's a container that holds a fixed number of items of a single type.
