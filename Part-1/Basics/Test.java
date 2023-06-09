@@ -11,7 +11,5 @@ public static void main(String[] args){
 	System.out.println(eid);
 	System.out.println(esal);
 	System.out.println(ename);
-
-
 }
 }

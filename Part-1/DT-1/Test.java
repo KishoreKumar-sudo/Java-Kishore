@@ -1,4 +1,3 @@
-
 class Test{
 	public static void main(String[] args){
 	
@@ -10,6 +9,5 @@ class Test{
 		System.out.println(avail);
 		System.out.println(a);
 		System.out.println(b);
-		
 	}
 }
