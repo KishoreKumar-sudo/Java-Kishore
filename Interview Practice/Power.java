@@ -11,5 +11,6 @@ public class Power(){
         y = Math.pow(x, 2);
         z = Math.pow(x, 3);
         System.out.println("Square of "+x+":"+y);
+        System.out.println("Cube of "+x+":"+z);
     }
 }
