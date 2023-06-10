@@ -10,6 +10,6 @@ public class Power(){
         x = s.nextInt();
         y = Math.pow(x, 2);
         z = Math.pow(x, 3);
-
+        System.out.println("Square of "+x+":"+y);
     }
 }
