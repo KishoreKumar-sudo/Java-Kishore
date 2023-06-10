@@ -8,7 +8,7 @@ public class Power(){
         System.out.println("Enter any number: ");
         Scanner s=new Scanner(System.in);
         x = s.nextInt();
-        y=
+        y = Math.pow(x, 2);
         z=
 
     }
