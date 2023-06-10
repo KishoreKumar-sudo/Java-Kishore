@@ -9,7 +9,7 @@ public class Power(){
         Scanner s=new Scanner(System.in);
         x = s.nextInt();
         y = Math.pow(x, 2);
-        z=
+        z = Math.pow(x, 3);
 
     }
 }
