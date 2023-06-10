@@ -6,6 +6,10 @@ public class Power(){
         int x;
         double y,z;
         System.out.println("Enter any number: ");
-        Scanner s=new Scanner(System.in;)
+        Scanner s=new Scanner(System.in);
+        x=
+        y=
+        z=
+
     }
 }
