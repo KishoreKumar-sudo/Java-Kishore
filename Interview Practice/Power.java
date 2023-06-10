@@ -14,3 +14,10 @@ public class Power{
         System.out.println("Cube of "+x+":"+z);
     }
 }
+
+/* O/P
+ * Enter any number: 
+10
+Square of 10:100.0
+Cube of 10:1000.0
+ */
