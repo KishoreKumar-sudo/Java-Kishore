@@ -7,7 +7,7 @@ public class Power(){
         double y,z;
         System.out.println("Enter any number: ");
         Scanner s=new Scanner(System.in);
-        x=
+        x = s.nextInt();
         y=
         z=
 
